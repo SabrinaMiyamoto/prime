@@ -1,0 +1,27 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(101, 60, 4, 1);
+}
+.cards-services{
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.social-medias{
+    background-image: url(../../assets/img/social.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

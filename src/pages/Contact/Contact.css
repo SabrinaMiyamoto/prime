@@ -1,0 +1,87 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-image: url(../../assets/img/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(250, 104, 0, 0.062);
+    color:  rgba(250, 105, 0, 1);
+}
+#contact{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    color: rgba(62, 62, 62, 1);
+}
+#contact h2{
+    padding: 2rem;
+}
+
+#contact h5{
+    padding: 1rem;
+}
+#contact p{
+    padding: 1rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(100, 100, 100, 0.69);
+    border-radius: 9px;
+    padding: 3rem;
+    background: rgba(252, 249, 249, 0.35);
+
+}
+
+ h4{
+    padding-bottom: .5rem;
+}
+
+.form input{
+    padding: .5rem;
+    margin: .25rem;
+    border-radius: 5px;
+    border: 1px solid  rgba(100, 100, 100, 0.69);
+    
+    
+}
+.name{
+    width: 100%;
+}
+.half{
+    display: flex;
+    flex-direction: row;    
+    width: 102%;
+}
+.email{
+    margin-right: .5rem;
+    width: 50%;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    margin: .25rem;
+    padding: .5rem;
+    border: 1px solid  rgba(100, 100, 100, 0.69);
+}
+
+@media (max-height: 600px){
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+        max-height: 500px;
+    }
+    #contact{
+        display: none;
+    }
+}

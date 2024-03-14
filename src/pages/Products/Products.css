@@ -1,0 +1,31 @@
+.products{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    color: rgba(101, 60, 4, 1);
+}
+.products h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.products img{
+    width: 100vw;
+    height: 60vh;
+}
+#products-container{
+display: flex; 
+flex-direction: column;
+justify-content: space-between;
+}
+.products-btn{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+@media (max-width: 705px) {
+    .social-medias{
+        display: none;
+    }
+}

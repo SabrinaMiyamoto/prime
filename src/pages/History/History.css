@@ -1,0 +1,50 @@
+.history{
+    background-color: rgba(21, 21, 21, 0.949);
+    color:  rgba(255, 251, 251); 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60vh;
+}
+.history-line{
+    border: 1px solid rgba(230, 137, 10, 0.84);
+    height: 24vh;
+    position: relative;
+    left: 2.5rem;
+}
+#history{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+#history p{
+    text-align: justify;
+    width: 80%;
+    padding: .5rem;
+}
+.history h4{
+    color: rgba(230, 137, 10, 0.88);
+}
+.history img{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 8px double rgba(230, 137, 10, 0.88);
+    margin-top: 2rem;
+}
+@media (max-width: 705px) {
+    .history{
+        height: 120vh;
+        display: flex;
+       
+    }
+}
