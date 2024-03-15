@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     color: rgba(101, 60, 4, 1);
+    padding: 1rem 0;
 }
 .cards-services{
     padding: 10px;
@@ -15,8 +16,9 @@
     flex-wrap: wrap;
 
 }
+
 .social-medias{
-    background-image: url(../../assets/img/social.png);
+    background-image: url(../../assets/img/Banner-fixo-entregas2_1_1_1_1.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

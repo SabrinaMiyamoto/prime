@@ -27,11 +27,14 @@
   border: 1px solid orange;
   border-radius: 5px;
   text-align: left;
-  width: 350px;
+  width: 300px;
+  height: 400px;
+  font-size: 18px;
+  justify-content: center;
 }
-.card h5{
+.card h3{
   text-align: center;
-  padding-bottom: .75rem;
+  padding: .75rem 0;
 }
 @media (max-width: 600px) {
   nav{

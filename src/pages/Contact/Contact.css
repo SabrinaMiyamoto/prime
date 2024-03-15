@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-color: rgba(250, 104, 0, 0.062);
     color:  rgba(250, 105, 0, 1);
 }
 #contact{
@@ -39,21 +38,24 @@
     border: 2px solid rgba(100, 100, 100, 0.69);
     border-radius: 9px;
     padding: 3rem;
-    background: rgba(252, 249, 249, 0.35);
-
 }
 
  h4{
     padding-bottom: .5rem;
 }
-
+.form{
+    width: 693px;
+    height: 693px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 .form input{
     padding: .5rem;
     margin: .25rem;
     border-radius: 5px;
     border: 1px solid  rgba(100, 100, 100, 0.69);
-    
-    
+    height: 50px;
 }
 .name{
     width: 100%;

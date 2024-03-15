@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
 }
-.brief h2, .brief h5{
+.brief h2, .brief h3{
     padding-top: 1rem;
     color: rgba(204, 44, 44, 1);
 }
@@ -23,7 +23,7 @@
     flex-wrap: wrap;
 }
 .whatsapp{
-    background-image: url(../../assets/img/whats.png), linear-gradient( rgba(255,255,255,1) 0%, rgb(21, 21, 21, 0.949) 100%);;
+    background-image: url(../../assets/img/whatsapp.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 49vh;
